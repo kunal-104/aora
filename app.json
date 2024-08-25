@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "aora",
+    "description": "My App description",
+    "scheme": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.jsm.aora"
+    },
+    "android": {
+      "package": "com.jsm.aora",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "expoProjectId": "4329d74a-f138-468f-9788-e10665b3c913",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4329d74a-f138-468f-9788-e10665b3c913"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
